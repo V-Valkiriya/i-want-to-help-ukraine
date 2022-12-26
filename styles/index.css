@@ -85,8 +85,8 @@ body {
 .grid {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
-  flex-wrap: wrap;
   gap: 40px;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -99,6 +99,7 @@ body {
 }
 
 .donation a {
+  position: relative;
   border: none;
   border-radius: 20px;
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.4);
@@ -123,8 +124,7 @@ body {
   position: absolute;
   display: block;
   z-index: 2;
-  margin-top: 20px;
-  margin-left: 110px;
+  width: 100%;
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
   text-align: center;
@@ -239,4 +239,331 @@ body {
 .table2 a i:hover {
   transform: scale(1.1);
   text-shadow: 0 0 5px rgba(198, 223, 246, 0.8);
+}
+
+
+
+
+/* Adaptation */
+
+@media only screen and (max-width: 1200px) {
+  .header h1 {
+    font-size: 80px;
+  }
+  
+  .grid { 
+    margin-right: 30px;
+    margin-left: 30px;
+  } 
+
+  .donation h1 {
+    font-size: 55px;
+    padding: 15px;
+  } 
+
+  .donation h3 {
+    font-size: 40px;
+  }
+  
+  .donation img {
+    height: 320px;
+  }
+
+  .comment {
+    font-size: 20px;
+    padding: 50px 100px;
+  }
+
+  .grid-org {
+    gap: 15px;
+  }
+
+  .organizations {
+    margin-bottom: 30px;
+  }
+
+  .grid-org img {
+    height: 215px;
+    border: 10px solid #d9d9d9;
+  }
+
+  .table h6 {
+    font-size: 18px;
+  }
+
+  .table2 h6 {
+    font-size: 18px;
+  }
+}
+
+
+@media only screen and (max-width: 922px) {
+  .header {
+    height: 230px;
+  }
+
+  .header h1 {
+    font-size: 70px;
+  }
+
+  .languages-nav {
+    top: 10px;
+  }
+
+  .donation h1 {
+    font-size: 50px;
+    padding: 15px;
+  }
+
+  .donation img {
+    height: 250px;
+  }
+  
+  .donation h3 {
+    font-size: 35px;
+  }
+
+  .comment {
+    padding: 30px 30px;
+    font-size: 22px;
+  } 
+
+  .organizations {
+    margin-bottom: 30px;
+  }
+
+  .grid-org img {
+    height: 300px;
+    border: 10px solid #d9d9d9;
+  }
+
+  .table h6 {
+    font-size: 18px;
+  }
+
+  .table2 h6 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title-nav {
+    display: none;
+  }
+
+  .languages-nav {
+    right: 10px;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
+
+  .donation h1 {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .donation img {
+    height: 200px;
+  }
+
+  .donation h3 {
+    font-size: 30px;
+  }
+
+  .comment {
+    padding: 30px 20px;
+    font-size: 15px;
+  } 
+
+  .organizations {
+    margin-bottom: 30px;
+  }
+
+  .grid-org img {
+    height: 225px;
+    border: 7px solid #d9d9d9;
+  }
+
+  .table-button {
+    font-size: 25px;
+    padding: 2px 5px;
+  }
+
+  .table {
+    padding-top: 10px;
+    border-spacing: 15px;
+  }
+
+  .table2 {
+    padding-top: 10px;
+    border-spacing: 15px;
+  }
+
+  .table h6 {
+    font-size: 15px;
+  }
+  
+  .table2 h6 {
+    font-size: 15px;
+  }
+
+  .grid-org {
+    gap: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 200px;
+  }
+
+  .title-nav {
+    display: none;
+  }
+
+  .languages-nav {
+    right: 5px;
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+
+.grid {
+  gap: 20px;
+}
+
+  .donation h1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .donation img {
+    height: 350px;
+  }
+
+  .donation h3 {
+    font-size: 30px;
+  }
+
+  .comment {
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 20px;
+  } 
+
+  .social {
+    padding: 10px;
+  }
+
+  .grid-org img {
+    height: 146px;
+    border: 5px solid #d9d9d9;
+  }
+
+  .organizations h1 {
+    font-size: 35px;
+    padding: 15px 10px;
+    line-height: 34px;
+  }
+
+  .table {
+    padding-top: 10px;
+    border-spacing: 5px;
+  }
+
+  .table2 {
+    padding-top: 10px;
+    border-spacing: 5px;
+  }
+
+  .table-button {
+    font-size: 13px;
+    padding: 2px 5px;
+  }
+
+  .table td {
+    height: 30px;
+  }
+
+  .table2 td {
+    height: 30px;
+  }
+
+  .table h6 {
+    font-size: 11px;
+  }
+
+  .table2 h6 {
+    font-size: 11px;
+  }
+
+  .languages img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .social {
+    margin-top: 1px;
+    font-size: 10px;
+  }
+
+  .organizations {
+    margin-bottom: 30px;
+  }
+
+  .grid-org {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .donation h1 {
+    font-size: 30px;
+    padding: 0px;
+  }
+  
+  .donation img {
+    height: 250px;
+  }
+
+  .grid-org img {
+    height: 130px;
+    border: 5px solid #d9d9d9;
+  }
+
+  .table h6 {
+    font-size: 9px;
+  }
+
+  .table2 h6 {
+    font-size: 9px;
+  }
+
+  .table-button {
+    font-size: 9px;
+    padding: 2px 5px;
+  }
+
+  .organizations {
+    margin-bottom: 10px;
+  }
+
+  .grid-org {
+    gap: 15px;
+  }
+  
+  .comment {
+    padding: 10px 10px;
+    font-size: 13px;
+    line-height: 18px;
+  } 
+
 }
