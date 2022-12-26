@@ -303,7 +303,7 @@ body {
   }
 
   .header h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .languages-nav {
@@ -429,7 +429,7 @@ body {
   }
 
   .header h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
 .grid {
@@ -522,11 +522,11 @@ body {
 
 @media only screen and (max-width: 320px) {
   .header h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .donation h1 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 0px;
   }
   
@@ -544,7 +544,7 @@ body {
   }
 
   .table2 h6 {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .table-button {
