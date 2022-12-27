@@ -229,15 +229,15 @@ body {
 }
 
 .copy-btn {
-  background-image: url(https://www.clipartmax.com/png/middle/219-2198518_download-png-file-512-x-copy-clipboard-icon-svg.png);
-  height: 20px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/59/59493.png);
+  height: 25px;
   width: 20px;
-  background-position: center center;
-  background-size: cover;
   border: none;
   margin-left: 5px;
   cursor: pointer;
   background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .copy-btn:hover {
