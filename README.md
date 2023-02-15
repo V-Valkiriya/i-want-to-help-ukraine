@@ -42,6 +42,7 @@
 - VSC code
 - HTML
 - CSS
+- JavaScript
 
 ## Setup
 
